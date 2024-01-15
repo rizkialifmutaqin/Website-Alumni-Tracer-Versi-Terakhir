@@ -1,0 +1,23 @@
+.p-3 {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}

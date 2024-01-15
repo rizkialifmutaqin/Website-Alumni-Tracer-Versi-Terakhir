@@ -1,0 +1,3 @@
+Cara penggunaan : 
+
+Jika file sudah diclone dari github, buka codingan pada Visual Studio Code dan buka terminal dan ketikkan "npm install", tunggu hingga selesai. Jika sudah selesai dan ingin menjalankan code backendnya, buka terminal baru dan ketikkan "node server" untuk menjalankan codingan backendnya. Dan juga buka terminal baru lagi dan ketikkan "npm start" untuk menjalankan codenya dan selesai, anda bisa menjalankan codenya.

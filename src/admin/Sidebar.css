@@ -1,0 +1,89 @@
+/* Sidebar.css */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0;
+    /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 1000;
+    /* Mengubah nilai z-index agar Sidebar muncul di atas konten */
+    background-color: #292929;
+    color: #fff;
+}
+
+.sidebar .list-group {
+    row-gap: 5px;
+}
+.sidebar .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+.sidebar .list-group-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar .list-group-item.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar .list-group-item i {
+    width: 20px;
+}
+
+.sidebar .list-group-item span {
+    font-size: 14px;
+}
+
+.sidebar .list-group-item:focus {
+    outline: none;
+}
+
+.sidebar .sidebar-header {
+    padding: 10px 20px;
+}
+
+.sidebar .sidebar-header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+}
+
+.sidebar .sidebar-header p {
+    font-size: 14px;
+    margin: 5px 0 0;
+    color: #fff;
+}
+
+.sidebar .sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sidebar .sidebar-footer a {
+    color: #fff;
+}
+
+.sidebar .sidebar-footer a:hover {
+    text-decoration: underline;
+}
+
+/* DataLogin.js dan DataSiswa.js */
+.content {
+    margin-left: 240px;
+    /* Sesuaikan dengan lebar Sidebar */
+    padding-left: 20px;
+    /* Atur jarak agar konten tidak terlalu dekat dengan Sidebar */
+}

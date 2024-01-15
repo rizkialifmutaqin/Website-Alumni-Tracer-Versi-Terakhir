@@ -1,0 +1,6 @@
+/* DataLogin.css */
+
+/* Sembunyikan overflow horizontal (jika ada) */
+.contentKuliahDanKerja {
+    overflow-x: hidden;
+}

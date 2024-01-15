@@ -1,0 +1,6 @@
+/* DataSiswa.css */
+
+/* Sembunyikan overflow horizontal (jika ada) */
+.contentSiswa {
+    overflow-x: hidden;
+}

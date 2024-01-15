@@ -1,0 +1,42 @@
+/* Login.css */
+
+.containerForm {
+    width: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #888988;
+    color: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 10px;
+    /* border: none;
+    outline: none; */
+}
+
+.login-button {
+    padding: 10px 20px;
+    background-color: #e4262c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-button {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;;
+}

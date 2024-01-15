@@ -1,0 +1,13 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* Tetapkan tinggi header yang diinginkan di sini */
+}
+
+.navbar-brand img {
+    height: 55px;
+    /* Tetapkan ukuran gambar yang diinginkan di sini */
+    width: auto;
+    margin-right: 5px;
+}

@@ -1,0 +1,47 @@
+/* MainPage.css */
+
+.main-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.card-right {
+    flex: 2;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-header h5 {
+    margin: 0;
+}
+
+.section dl dt {
+    font-weight: bold;
+}
+
+.section dl dd {
+    margin-bottom: 10px;
+}
